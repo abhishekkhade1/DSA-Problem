@@ -14,16 +14,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/abhishekkhade1/DSA-Problem/tree/master/0042-trapping-rain-water) |
+| |
 ## Stack
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/abhishekkhade1/DSA-Problem/tree/master/0042-trapping-rain-water) |
+| |
 | [0232-implement-queue-using-stacks](https://github.com/abhishekkhade1/DSA-Problem/tree/master/0232-implement-queue-using-stacks) |
 ## Monotonic Stack
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/abhishekkhade1/DSA-Problem/tree/master/0042-trapping-rain-water) |
+| |
 ## Design
 |  |
 | ------- |
