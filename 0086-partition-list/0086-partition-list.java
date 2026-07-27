@@ -20,22 +20,18 @@ class Solution {
 
         ListNode curr = head;
 
-        while(curr!=null){
+        while (head != null) {
 
-            ListNode nextNode = curr.next;
-            curr.next = null;
-
-
-            if(curr.val < x){
-                smallTail.next = curr;
+            if (head.val < x) {
+                smallTail.next = head;
                 smallTail = smallTail.next;
-            }else{
-                greaterTail.next = curr;
+            } else {
+                greaterTail.next = head;
                 greaterTail = greaterTail.next;
             }
-            curr = nextNode;
+            head = head.next;
         }
-
+     greaterTail.next = null;
      smallTail.next = greaterDummy.next;
      return smallDummy.next;
         
