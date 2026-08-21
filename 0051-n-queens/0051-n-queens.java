@@ -47,9 +47,9 @@ class Solution {
         }
 
         // check left
-        for(int j = col-1; j>=0; j--){
-            if(board[row][j] =='Q') return false;
-        }
+        // for(int j = col-1; j>=0; j--){
+        //     if(board[row][j] =='Q') return false;
+        // }
 
         // check left up diagonal
 
