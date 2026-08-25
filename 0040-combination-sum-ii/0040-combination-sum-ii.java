@@ -24,7 +24,7 @@ class Solution {
             helper(arr, tar-arr[i], i+1, ans, partial_ans);
             partial_ans.remove(partial_ans.size()-1);
         }
-         while(i+1 < arr.length && arr[i] == arr[i+1]){
+         while(i < arr.length-1 && arr[i] == arr[i+1]){
             i++;
         }
 
