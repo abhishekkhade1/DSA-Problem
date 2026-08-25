@@ -19,16 +19,15 @@ class Solution {
 
         for(int i=0; i<nums.length; i++ ){
 
-            if(used[i]){
-                continue;
+            if(!used[i]){
+            
+                partial_ans.add(nums[i]);
+                used[i] = true;
+                helper(nums, ans, partial_ans, used);
+
+                used[i] = false;
+                partial_ans.remove(partial_ans.size()-1);
             }
-
-            partial_ans.add(nums[i]);
-            used[i] = true;
-            helper(nums, ans, partial_ans, used);
-
-            used[i] = false;
-            partial_ans.remove(partial_ans.size()-1);
         }
 
     }
