@@ -20,7 +20,7 @@ class Solution {
 
         for(int start = i; start<=9; start++){
 
-            if(start > tar) break;
+            if(start > tar) return;
 
             partial_ans.add(start);
             helper(k, tar-start, start + 1, ans, partial_ans);
