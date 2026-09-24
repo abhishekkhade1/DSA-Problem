@@ -1,20 +1,16 @@
 class Solution {
     public int smallestIndex(int[] nums) {
         
-        int min = Integer.MAX_VALUE;
+        // int min = Integer.MAX_VALUE;
 
         for(int i = 0; i < nums.length; i++){
             int sum = sum(nums[i]);
             if(i == sum){
-                if(sum < min){
-                    min = i;
-                }
+                return i;
             }
         }
-        if(min == Integer.MAX_VALUE){
-            return -1;
-        }
-        return min;
+       
+        return -1;
     }
 
     public int sum(int num){
