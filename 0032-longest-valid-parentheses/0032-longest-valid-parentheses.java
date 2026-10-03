@@ -10,7 +10,7 @@ class Solution {
             } else {
                 stack.pop();
 
-                if (stack.isEmpty()) {
+                if (stack.isEmpty()) {  
                     stack.push(i);
                 } else {
                     maxLen = Math.max(maxLen, i - stack.peek());
@@ -19,5 +19,7 @@ class Solution {
         }
 
         return maxLen;
+
+       
     }
 }
