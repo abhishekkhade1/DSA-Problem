@@ -15,10 +15,8 @@ class Solution {
                 if(curr == 0){
                     curr = 1;
                 }else{
-
                     curr = 2 * curr;
                 }
-
                 st.push(curr + st.pop());
             }
         
