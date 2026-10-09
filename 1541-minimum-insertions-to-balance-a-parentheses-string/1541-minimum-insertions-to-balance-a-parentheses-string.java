@@ -8,14 +8,12 @@ class Solution {
             if (s.charAt(i) == '(') {
                 open++;
             } else {
-                // Ensure two consecutive closing parentheses
                 if (i + 1 < s.length() && s.charAt(i + 1) == ')') {
                     i++;
                 } else {
                     ans++;
                 }
 
-                // No opening parenthesis available
                 if (open > 0) {
                     open--;
                 } else {
